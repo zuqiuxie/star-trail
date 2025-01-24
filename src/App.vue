@@ -19,61 +19,6 @@ const data = reactive({
     '一望无际的迷雾中<br/>有人在寻找光明',
     '当你在凝视着网页的时候<br/>网页也正在凝视着你',
   ],
-
-
-  <!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>导航链接示例</title>
-  <style>
-    /* 设置导航链接的样式，将字号设置为对应 20 号字的像素值 */
-    nav a {
-      font-size: 26.67px;
-      margin-right: 15px;
-      text-decoration: none;
-      color: #007BFF;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-
-<body>
-  <nav id="nav-menu"></nav>
-  <script>
-    // 定义导航链接数组
-    const navLinks = [
-      {
-        name: '博 客',
-        link: 'https://blog.wangbin.run',
-      },
-      {
-        name: '跑 步',
-        link: 'https://42195.wangbin.run',
-      },
-    ];
-
-    // 获取导航菜单元素
-    const navMenu = document.getElementById('nav-menu');
-
-    // 遍历 navLinks 数组，为每个链接创建 <a> 元素
-    navLinks.forEach((link) => {
-      const anchor = document.createElement('a');
-      anchor.textContent = link.name;
-      anchor.href = link.link;
-      navMenu.appendChild(anchor);
-    });
-  </script>
-</body>
-
-</html>
-
-
          <footer>
          <p><a href="https://beian.miit.gov.cn" target="_blank" style="color: white; font-size: 26px; text-decoration: none;">陕ICP备2023010978号-1</a></p>
          </footer>
