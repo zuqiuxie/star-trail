@@ -125,7 +125,7 @@ onMounted(() => {
           <div bg-green rounded-full h-3 w-3 />
         </div>
         <div text-4 text-white tracking-widest>
-          小孙同学祝您今天快乐
+          小王同学祝您今天快乐
         </div>
       </div>
     </section>
@@ -138,7 +138,7 @@ onMounted(() => {
       <div mx-10 mb-10 flex justify-between>
         <div class="text-white/80">
           <p leading-10>
-            嗨，你好，我是小孙同学。
+            嗨，你好，我是小王同学。
           </p>
           <p leading-10>
             热爱编程、摄影、读书、旅行。
@@ -202,8 +202,23 @@ onMounted(() => {
         <i i-ant-design-environment-outlined ml-1 />
       </div>
       <div class="text-white/60" mt-2 f-c-c gap-4>
-        <div>皖 ICP 备 2021010058 号</div>
-        <div>© 2024 小孙同学</div>
+
+# Friends
+# 友情链接
+friends: [
+    {
+        title: "王彬的独立博客",
+        href: "https://wangbin.run"
+    },{
+        title: "陕ICP备2023010978号-1",
+        href: "https://beian.miit.gov.cn/"
+    }
+]
+
+
+
+        <div>陕ICP备2023010978号-1</div>
+        <div>©2025 小王同学</div>
       </div>
     </footer>
   </main>
