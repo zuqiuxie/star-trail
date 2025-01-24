@@ -182,7 +182,7 @@ onMounted(() => {
         <div v-for="(item, index) in data.socialLinks" :key="index" mx-10 my-4 class="basis-1/6">
           <a class="bg-white/5 hover:bg-white/10" p-2 rounded-lg shadow-md flex-col justify-between items-center transition backdrop-blur-3xl backdrop-opacity-60 hover:backdrop-opacity-100 hover:-translate-y-2 :href="item.link">
             <div mb-1 text-white f-c-c v-html="item.icon" />
-            <div text-bold opacity-175 text-4 text-white>{{ item.label }}</div>
+            <div text-bold opacity-75 text-4 text-white>{{ item.label }}</div>
           </a>
         </div>
       </div>
@@ -190,7 +190,7 @@ onMounted(() => {
 
     <!-- 底部 -->
     <footer mb-5>
-      <div class="text-white/60" mt-50 f-c-c>
+      <div class="text-white/60" text-white mt-50 f-c-c>
         <i i-ant-design-environment-outlined mr-1 />
         <p>路虽远行则将至，事虽难做则必成</p>
         <i i-ant-design-environment-outlined ml-1 />
