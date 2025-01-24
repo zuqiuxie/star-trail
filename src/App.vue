@@ -209,7 +209,7 @@ onMounted(() => {
   <!-- 背景 -->
   <div id="background" absolute wh-full left-0 top-0 z-0>
     <!-- 渐变阴影 -->
-    <div to-black-500 absolute h-80vh w-full bottom--30vh left-0 from-black bg-gradient-to-t />
+    <div to-black-300 absolute h-80vh w-full bottom--30vh left-0 from-black bg-gradient-to-t />
     <!-- 星轨背景 -->
     <StarTrails pb-45vh bg-black />
   </div>
