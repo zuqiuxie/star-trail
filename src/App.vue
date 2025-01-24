@@ -100,7 +100,7 @@ onMounted(() => {
 <template>
   <!-- 导航 -->
   <nav absolute fixed bottom-4 left-4 z-20>
-    <div v-for="(item, index) in data.navLinks" :key="index" my-6 text-3 text-white wv>
+    <div v-for="(item, index) in data.navLinks" :key="index" my-6 text-6 text-white wv>
       <a :href="item.link" opacity-75 text-white tracking-widest hover:opacity-100>
         {{ item.name }}
       </a>
