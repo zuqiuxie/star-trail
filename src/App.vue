@@ -202,21 +202,6 @@ onMounted(() => {
         <i i-ant-design-environment-outlined ml-1 />
       </div>
       <div class="text-white/60" mt-2 f-c-c gap-4>
-
-# Friends
-# 友情链接
-friends: [
-    {
-        title: "王彬的独立博客",
-        href: "https://wangbin.run"
-    },{
-        title: "陕ICP备2023010978号-1",
-        href: "https://beian.miit.gov.cn/"
-    }
-]
-
-
-
         <div>陕ICP备2023010978号-1</div>
         <div>©2025 小王同学</div>
       </div>
