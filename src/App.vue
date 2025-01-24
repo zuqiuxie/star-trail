@@ -28,21 +28,21 @@ const data = reactive({
   }],
 
   myProjects: [{
-    name: 'Home',
-    description: '个人简介、主页、引导页',
-    link: 'https://github.com/sun0225SUN/home',
+    name: 'blog',
+    description: '王彬的独立博客',
+    link: 'https://blog.wangbin.run',
   }, {
-    name: 'Blog',
-    description: '个人博客，学习&随笔',
-    link: 'https://github.com/sun0225SUN/blog',
+    name: 'run',
+    description: '跑步主页',
+    link: 'https://42195.wangbin.run',
   }, {
-    name: 'Brain',
+    name: 'wiki',
     description: '知识库、第二大脑',
-    link: 'https://github.com/sun0225SUN/brain',
+    link: 'https://wiki.wangbin.runn',
   }, {
-    name: 'Camera',
+    name: '小王笔记',
     description: '摄影相册',
-    link: 'https://github.com/sun0225SUN/camera',
+    link: 'https://yxbj.wangbin.run',
   }, {
     name: 'Camera Tools',
     description: '摄影工具箱',
