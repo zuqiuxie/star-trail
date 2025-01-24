@@ -218,6 +218,6 @@ onMounted(() => {
 <style lang="scss" scoped>
 #background.fixed {
   position: fixed;
-  top: -90%;
+  top: -70%;
 }
 </style>
