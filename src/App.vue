@@ -40,8 +40,8 @@ const data = reactive({
     description: '知识库、第二大脑',
     link: 'https://wiki.wangbin.runn',
   }, {
-    name: '小王笔记',
-    description: '摄影相册',
+    name: 'biji',
+    description: '小王笔记',
     link: 'https://yxbj.wangbin.run',
   }, {
     name: 'Camera Tools',
@@ -129,7 +129,7 @@ onMounted(() => {
       <div text-bold mb-4 ml-10 text-8 text-white>
         About Me
       </div>
-      <div mx-10 mb-10 flex justify-between>
+      <div mx-20 mb-20 flex justify-between>
         <div class="text-white/80">
           <p leading-10>
             嗨，你好，我是小王同学。
