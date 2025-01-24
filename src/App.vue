@@ -129,7 +129,7 @@ onMounted(() => {
       <div text-bold mb-4 ml-10 text-8 text-white>
         About Me
       </div>
-      <div mx-30 mb-20 flex justify-between>
+      <div mx-10 mb-10 flex justify-between>
         <div class="text-white/80">
           <p leading-10>
             嗨，你好，我是小王同学。
@@ -163,7 +163,7 @@ onMounted(() => {
         <div v-for="(item, index) in data.myProjects" :key="index" mx-10 my-4 class="basis-3/4 md:basis-1/6">
           <a :href="item.link">
             <div class="bg-white/5 hover:bg-white/10" p-2 rounded-lg shadow-md flex-col transition backdrop-blur-3xl backdrop-opacity-60 hover:backdrop-opacity-100 hover:-translate-y-2>
-              <div text-bold opacity-75 text-5 text-white>
+              <div text-bold opacity-75 text-4 text-white>
                 {{ item.name }}
               </div>
               <div mt-1 opacity-50 text-3 text-white>
