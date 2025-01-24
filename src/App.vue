@@ -21,13 +21,13 @@ const data = reactive({
   ],
   navLinks: [{
     name: '博 客',
-    link: 'https://blog.sunguoqi.com',
+    link: 'https://blog.wangbin.run',
   }, {
     name: '影 集',
     link: 'https://camera.sunguoqi.com',
   }, {
-    name: '运 动',
-    link: 'https://bicycling.sunguoqi.com',
+    name: '跑 步',
+    link: 'https://42195.wangbin.run',
   }, {
     name: '留 言',
     link: 'https://blog.sunguoqi.com/comments',
