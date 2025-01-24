@@ -160,7 +160,7 @@ onMounted(() => {
 
       <!-- 我的项目 -->
       <div text-bold mb-2 ml-10 text-8 text-white>
-        Projects
+        项目
       </div>
       <div mb-10 flex flex-wrap justify-between>
         <div v-for="(item, index) in data.myProjects" :key="index" mx-10 my-4 class="basis-3/4 md:basis-1/6">
@@ -179,7 +179,7 @@ onMounted(() => {
 
       <!-- 社交链接 -->
       <div text-bold mb-2 ml-10 text-8 text-white>
-        Find Me
+        链接
       </div>
       <div flex flex-wrap justify-between>
         <div v-for="(item, index) in data.socialLinks" :key="index" mx-10 my-4 class="basis-1/6">
