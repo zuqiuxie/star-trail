@@ -166,7 +166,7 @@ onMounted(() => {
               <div text-bold opacity-75 text-white>
                 {{ item.name }}
               </div>
-              <div mt-1 opacity-50 text-30 text-white>
+              <div mt-1 opacity-50 text-6 text-white>
                 {{ item.description }}
               </div>
             </div>
