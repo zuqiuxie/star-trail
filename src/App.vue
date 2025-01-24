@@ -130,7 +130,7 @@ onMounted(() => {
     <section mx-9vw mt-90>
       <!-- 关于我 -->
       <div text-bold mb-4 ml-10 text-8 text-white>
-        关 于 我
+        关于我
       </div>
       <div mx-10 mb-10 flex justify-between>
         <div class="text-white/80">
