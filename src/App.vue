@@ -74,7 +74,9 @@ const data = reactive({
 </html>
 
 
-
+         <footer>
+         <p><a href="https://beian.miit.gov.cn" target="_blank" style="color: white; font-size: 26px; text-decoration: none;">陕ICP备2023010978号-1</a></p>
+         </footer>
 
   navLinks: [{
     name: '博 客',
