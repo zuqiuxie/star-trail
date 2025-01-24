@@ -131,7 +131,7 @@ onMounted(() => {
       </div>
       <div mx-30 mb-20 flex justify-between>
         <div class="text-white/80">
-          <p leading-20>
+          <p leading-10>
             嗨，你好，我是小王同学。
           </p>
           <p leading-10>
@@ -156,7 +156,7 @@ onMounted(() => {
         </div> -->
 
       <!-- 我的项目 -->
-      <div text-bold mb-2 ml-10 text-8 text-white>
+      <div text-bold mb-2 ml-10 text-28 text-white>
         Projects
       </div>
       <div mb-10 flex flex-wrap justify-between>
