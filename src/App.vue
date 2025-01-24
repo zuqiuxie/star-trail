@@ -203,6 +203,7 @@ onMounted(() => {
       </div>
       <div class="text-white/60" mt-2 f-c-c gap-4>
         <div>陕ICP备2023010978号-1</div>
+        <a href="https://beian.miit.gov.cn/">陕ICP备2023010978号-1</a>
         <div>©2025 小王同学</div>
       </div>
     </footer>
