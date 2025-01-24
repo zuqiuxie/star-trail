@@ -20,13 +20,13 @@ const data = reactive({
     '当你在凝视着网页的时候<br/>网页也正在凝视着你',
   ],
   navLinks: [{
-    name: '博 客',
+    name: '博客',
     link: 'https://blog.wangbin.run',
   },
 
 
   {
-    name: '跑 步',
+    name: '跑步',
     link: 'https://42195.wangbin.run',
   }],
 
