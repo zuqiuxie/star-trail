@@ -19,6 +19,8 @@ const data = reactive({
     '一望无际的迷雾中<br/>有人在寻找光明',
     '当你在凝视着网页的时候<br/>网页也正在凝视着你',
   ],
+  
+  <main bg-transparent absolute w-full top-75vh z-10>
   navLinks: [{
     name: '博 客',
     link: 'https://blog.wangbin.run',
