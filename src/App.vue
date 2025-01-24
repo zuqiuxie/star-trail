@@ -203,8 +203,14 @@ onMounted(() => {
       </div>
       <div class="text-white/60" mt-2 f-c-c gap-4>
         <div>陕ICP备2023010978号-1</div>
+          <footer>
+          <p>版权所有 © 2025 公司名称 | <a href="https://beian.miit.gov.cn" target="_blank" style="color: white; text-decoration: none;">ICP备案号：浙B2-20080101</a></p>
+          </footer>
         <a href="https://beian.miit.gov.cn/">陕ICP备2023010978号-1</a>
         <a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2023010978号-1</a>
+
+
+
         <div>©2025 小王同学</div>
       </div>
     </footer>
