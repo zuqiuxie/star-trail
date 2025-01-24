@@ -25,7 +25,7 @@ const data = reactive({
   }, {
     name: '跑 步',
     link: 'https://42195.wangbin.run',
-  },
+  }],
 
   myProjects: [{
     name: 'Home',
