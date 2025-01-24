@@ -22,7 +22,10 @@ const data = reactive({
   navLinks: [{
     name: '博 客',
     link: 'https://blog.wangbin.run',
-  }, {
+  },
+
+
+  {
     name: '跑 步',
     link: 'https://42195.wangbin.run',
   }],
