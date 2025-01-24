@@ -162,11 +162,11 @@ onMounted(() => {
       <div mb-10 flex flex-wrap justify-between>
         <div v-for="(item, index) in data.myProjects" :key="index" mx-10 my-4 class="basis-3/4 md:basis-1/6">
           <a :href="item.link">
-            <div class="bg-white/5 hover:bg-white/10" p-2 rounded-lg shadow-md flex-col transition backdrop-blur-3xl backdrop-opacity-260 hover:backdrop-opacity-100 hover:-translate-y-2>
+            <div class="bg-white/5 hover:bg-white/10" p-2 rounded-lg shadow-md flex-col transition backdrop-blur-3xl backdrop-opacity-60 hover:backdrop-opacity-100 hover:-translate-y-2>
               <div text-bold opacity-75 text-white>
                 {{ item.name }}
               </div>
-              <div mt-1 opacity-50 text-3 text-white>
+              <div mt-1 opacity-50 text-30 text-white>
                 {{ item.description }}
               </div>
             </div>
