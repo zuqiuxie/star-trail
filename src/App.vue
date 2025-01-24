@@ -23,15 +23,9 @@ const data = reactive({
     name: '博 客',
     link: 'https://blog.wangbin.run',
   }, {
-    name: '影 集',
-    link: 'https://camera.sunguoqi.com',
-  }, {
     name: '跑 步',
     link: 'https://42195.wangbin.run',
-  }, {
-    name: '留 言',
-    link: 'https://blog.sunguoqi.com/comments',
-  }],
+  },
 
   myProjects: [{
     name: 'Home',
