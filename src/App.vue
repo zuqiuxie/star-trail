@@ -130,7 +130,7 @@ onMounted(() => {
         About Me
       </div>
       <div mx-30 mb-20 flex justify-between>
-        <div class="text-white/180">
+        <div class="text-white/80">
           <p leading-20>
             嗨，你好，我是小王同学。
           </p>
